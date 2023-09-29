@@ -20,9 +20,9 @@ https://www.nexusmods.com/hitman3/mods/323
 - Moved the title screen logo up, so it's closer to the height it was at in H2016.
 - (Off by default) Changed a bunch of the guns' names to be more consistent with each other.
 
-If you see anything in that changelog that you don't like, there's probably an option to turn it off in the SMF mod config page.
+If you see anything in this changelog that you don't like, there's probably an option to turn it off in the SMF mod config page.
 
 ## Credits
-[Burn, The Witch](https://www.nexusmods.com/users/121153618), for making the original Heritage UI, and indirectly teaching me all the stuff I know about modding Hitman that I learned by modifying this mod.
+[Burn, The Witch](https://www.nexusmods.com/users/121153618), for making the original Heritage UI, and indirectly teaching me so much about modding Hitman. You can really learn a lot by reverse-engineering and modifying someone else's mod.
 
 [beneddyguitar](https://www.nexusmods.com/users/42615100), for making the Hitman 2016 Menu and Music mod, and [PandoraAlisu](https://www.nexusmods.com/users/162730918) for fixing it. I got both the music and the higher logo position from their mod.
