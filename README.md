@@ -25,4 +25,4 @@ If you see anything in that changelog that you don't like, there's probably an o
 ## Credits
 [Burn, The Witch](https://www.nexusmods.com/users/121153618), for making the original Heritage UI, and indirectly teaching me all the stuff I know about modding Hitman that I learned by modifying this mod.
 
-[beneddyguitar](https://www.nexusmods.com/users/42615100), for making the Hitman 2016 Menu and Music mod, and [PandoraAlisu](https://www.nexusmods.com/users/162730918) for fixing it. I got both the music and the higher logo position from this mod.
+[beneddyguitar](https://www.nexusmods.com/users/42615100), for making the Hitman 2016 Menu and Music mod, and [PandoraAlisu](https://www.nexusmods.com/users/162730918) for fixing it. I got both the music and the higher logo position from their mod.
