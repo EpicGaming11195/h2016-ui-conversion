@@ -12,6 +12,7 @@ https://www.nexusmods.com/hitman3/mods/323
 - All objective icons have been rounded.
 - Selected menu tiles have a white outline around them instead of a bar at the bottom, and the drop shadow has been added back.
 - The target icon on the HUD, the one on the map, and the intel icon have been replaced with their respective ones from H2016.
+- Added the dotted square on the minimap for when you're trespassing. (It is a bit translucent, but I don't exactly know how to fix that.)
 - Trespassing, compromised, and unconscious witness icons are now arrows.
 - Changed the boot video and menu music to the ones from H2016.
 - Replaced the menu tile icons for some things (e.g. the career page, the load game button) with the ones from H2016.
