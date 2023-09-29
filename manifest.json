@@ -427,21 +427,13 @@
 			"group": "Career Menu Icons"
 		},
 		{
-			"name": "On (Hitman 2016)",
+			"name": "On",
 			"tooltip": "HITMAN 2016's career menu thumbnails.",
 			"image": "framework content/career_old_icons_h2016.png",
 			"type": "select",
 			"group": "Career Menu Icons",
 			"contentFolders": ["mod content/career menu pictures/h2016"],
 			"enabledByDefault": true
-		},
-		{
-			"name": "On (Hitman 2)",
-			"tooltip": "HITMAN 2's career menu thumbnails.",
-			"image": "framework content/career_old_icons_h2.png",
-			"type": "select",
-			"group": "Career Menu Icons",
-			"contentFolders": ["mod content/career menu pictures/h2"]
 		},
 		{
 			"name": "Off",
