@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "1.0.0",
 	"id": "EpicGaming11195.HeritageUIEpicGEdit",
 	"name": "Heritage UI (EpicGaming11195 Edit)",
@@ -524,7 +525,8 @@
 			"type": "select",
 			"tooltip": "HITMAN WOA's default item names.",
 			"image": "framework content/defaultnames.png",
-			"group": "Item Names"
+			"group": "Item Names",
+			"enabledByDefault": true
 		},
 		{
 			"name": "On (Heritage UI)",
@@ -1141,8 +1143,7 @@
 					"chineseTraditional": {},
 					"japanese": {}
 				}
-			},
-			"enabledByDefault": true
+			}
 		},
 		{
 			"name": "Off",
