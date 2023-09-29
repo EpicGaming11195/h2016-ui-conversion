@@ -3,7 +3,8 @@
 	"version": "1.0.0",
 	"id": "EpicGaming11195.HeritageUIEpicGEdit",
 	"name": "Heritage UI (EpicGaming11195 Edit)",
-	"description": "My modified version of Heritage UI, made to look as close to Hitman 2016 GOTY as my modding skills allow. Credit to BurnTheWitch for making Heritage UI, and to beneddyguitar for the Hitman 2016 Menu Music mod.",
+	"description": "My modified version of Heritage UI, made to look as close to Hitman 2016 GOTY as my modding skills allow. Credit to BurnTheWitch for the original Heritage UI, and to beneddyguitar for the Hitman 2016 Menu and Music mod.",
+	"updateCheck": "https://raw.githubusercontent.com/EpicGaming11195/heritage-ui-edit-updater/main/updater.json",
 	"authors": [
 		"Burn, The Witch",
 		"EpicGaming11195"
