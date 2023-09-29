@@ -204,7 +204,7 @@
 		},
 		{
 			"name": "On",
-			"tooltip": "Heritage UI'S custom UI, made to evoke HITMAN 2016's UI.",
+			"tooltip": "Heritage UI's custom UI, made to evoke HITMAN 2016's UI.",
 			"image": "framework content/UI_heritage.png",
 			"type": "select",
 			"group": "UI Style",
@@ -246,7 +246,7 @@
 		},
 		{
 			"name": "Off",
-			"tooltip": "HITMAN WOA'S default objective size.",
+			"tooltip": "HITMAN WOA's default objective size.",
 			"image": "framework content/small.jpg",
 			"type": "select",
 			"group": "Objective Scale",
@@ -262,7 +262,7 @@
 		},
 		{
 			"name": "Off",
-			"tooltip": "HITMAN WOA'S Vanilla boot logo.",
+			"tooltip": "HITMAN WOA's Vanilla boot logo.",
 			"image": "framework content/v_l.png",
 			"type": "select",
 			"group": "Boot Logo"
@@ -278,7 +278,7 @@
 		},
 		{
 			"name": "Off",
-			"tooltip": "HITMAN WOA'S default logo position.",
+			"tooltip": "HITMAN WOA's default logo position.",
 			"image": "framework content/logopos_woa.png",
 			"type": "select",
 			"group": "Logo Position"
@@ -326,7 +326,7 @@
 		},
 		{
 			"name": "Off",
-			"tooltip": "HITMAN 3's default menu music.",
+			"tooltip": "HITMAN WOA's default menu music.",
 			"type": "select",
 			"group": "Menu Music"
 		},
@@ -340,7 +340,7 @@
 		},
 		{
 			"name": "Off",
-			"tooltip": "Hitman WOA'S default loading screen.",
+			"tooltip": "Hitman WOA's default loading screen.",
 			"image": "framework content/ls_v.png",
 			"type": "select",
 			"group": "Loading Background"
@@ -357,7 +357,7 @@
 		{
 			
 			"name": "Off",
-			"tooltip": "Hitman WOA'S Default destination backgrounds.",
+			"tooltip": "Hitman WOA's default destination backgrounds.",
 			"image": "framework content/d_v.png",
 			"type": "select",
 			"group": "Destination Backgrounds"
@@ -375,7 +375,7 @@
 			"name": "Off",
 			"image": "framework content/vanilla_maps.png",
 			"type": "select",
-			"tooltip": "Hitman WOA'S default map colors.",
+			"tooltip": "Hitman WOA's default map colors.",
 			"group": "Map Colors"
 		},
 		{
@@ -396,7 +396,7 @@
 		},
 		{
 			"name": "On",
-			"tooltip": "Heritage UI'S custom main menu, combining the featured and live catergories to make the dashboard. It also moves the VR button as to not impede menu flow.",
+			"tooltip": "Heritage UI's custom main menu, combining the featured and live catergories to make the dashboard. It also moves the VR button as to not impede menu flow.",
 			"image": "framework content/hmm.png",
 			"type": "select",
 			"group": "Main Menu",
@@ -412,7 +412,7 @@
 		},
 		{
 			"name": "On",
-			"tooltip": "Heritage UI'S custom career menu.",
+			"tooltip": "Heritage UI's custom career menu.",
 			"image": "framework content/CAREER_HUI.png",
 			"type": "select",
 			"group": "Career Menu",
@@ -460,7 +460,7 @@
 		},
 		{
 			"name": "On",
-			"tooltip": "Heritage UI'S custom destination menu.",
+			"tooltip": "Heritage UI's custom destination menu.",
 			"image": "framework content/HUI_DEST.png",
 			"type": "select",
 			"group": "Destination Menu",
@@ -476,7 +476,7 @@
 		},
 		{
 			"name": "On",
-			"tooltip": "Heritage UI'S custom story menu.",
+			"tooltip": "Heritage UI's custom story menu.",
 			"image": "framework content/cp_hui.png",
 			"type": "select",
 			"group": "Campaign Menu",
@@ -492,7 +492,7 @@
 		},
 		{
 			"name": "On",
-			"tooltip": "Heritage UI'S custom gamemodes menu.",
+			"tooltip": "Heritage UI's custom gamemodes menu.",
 			"image": "framework content/hui_gm.png",
 			"type": "select",
 			"group": "Gamemodes Menu",
@@ -1140,7 +1140,7 @@
 		},
 		{
 			"name": "Off",
-			"tooltip": "HITMAN WOA'S default item/suit sorting.",
+			"tooltip": "HITMAN WOA's default item/suit sorting.",
 			"image": "framework content/sortdefault.png",
 			"type": "select",
 			"group": "Suit/Item Sorting",
@@ -1148,7 +1148,7 @@
 		},
 		{
 			"name": "On (Peacock/Offline Only)",
-			"tooltip": "Heritage UI'S custom item/suit sorting. Suits are now sorted as Signature, Season # and DLC. Poison Grenades are now in the Posion catergory, the Gold Bar has been moved to distractions and Dart Guns now have their own category.",
+			"tooltip": "Heritage UI's custom item/suit sorting. Suits are now sorted as Signature, Season # and DLC. Poison Grenades are now in the Posion catergory, the Gold Bar has been moved to distractions and Dart Guns now have their own category.",
 			"image": "framework content/sorthui.png",
 			"type": "select",
 			"group": "Suit/Item Sorting",
