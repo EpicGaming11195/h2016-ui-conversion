@@ -1,13 +1,14 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "1.0.0",
-	"id": "EpicGaming11195.HeritageUIEpicGEdit",
-	"name": "Heritage UI (EpicGaming11195 Edit)",
-	"description": "My modified version of Heritage UI, made to look as close to Hitman 2016 GOTY as my modding skills allow. Credit to BurnTheWitch for the original Heritage UI, and to beneddyguitar for the Hitman 2016 Menu and Music mod.",
-	"updateCheck": "https://raw.githubusercontent.com/EpicGaming11195/heritage-ui-edit-updater/main/updater.json",
+	"id": "EpicGaming11195.H2016UIConversion",
+	"name": "Hitman 2016 UI Conversion",
+	"description": "A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 GOTY as possible.",
+	"updateCheck": "https://raw.githubusercontent.com/EpicGaming11195/h2016-ui-conversion-updater/main/updater.json",
 	"authors": [
-		"Burn, The Witch",
-		"EpicGaming11195"
+		"EpicGaming11195",
+		"Burn The Witch",
+		"beneddyguitar"
 	],
 	"blobsFolders": ["mod content/base/blobs"],
 	"frameworkVersion": "2.15.1",
@@ -204,7 +205,7 @@
 		},
 		{
 			"name": "On",
-			"tooltip": "Heritage UI's custom UI, made to evoke HITMAN 2016's UI.",
+			"tooltip": "Heritage UI's custom UI, made to evoke HITMAN 2016's UI, with some of my own customization.",
 			"image": "framework content/UI_heritage.png",
 			"type": "select",
 			"group": "UI Style",
