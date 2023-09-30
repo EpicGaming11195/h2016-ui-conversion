@@ -6,7 +6,9 @@ A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 201
 
 ### Links to the original mods
 Heritage UI - https://www.nexusmods.com/hitman3/mods/323
+
 Hitman 2016 Menu and Music Replacement - https://www.nexusmods.com/hitman3/mods/57
+
 Hitman 2016 Intro - https://www.nexusmods.com/hitman3/mods/612
 
 ## What I've added/changed
