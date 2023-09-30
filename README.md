@@ -32,4 +32,4 @@ If you see anything in this changelog that you don't like, there's probably an o
 
 And all the people in Heritage UI's credits. I literally couldn't have done it without you.
 
-Before you ask, I don't have to credit anyone for [Hitman 2016 Intro](https://www.nexusmods.com/hitman3/mods/612), because that mod was also created by me.
+Before you ask, I don't have to credit anyone for Hitman 2016 Intro, because that mod was also created by me.
