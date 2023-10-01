@@ -1,5 +1,5 @@
 # Hitman 2016 UI Conversion
-A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make Hitman 3's UI look as close to Hitman 2016 GOTY as possible.
+A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make Hitman 3's UI look as close to Hitman 2016 as possible.
 
 ### Download it here
 [insert link to the mod when its uploaded]
@@ -13,7 +13,7 @@ Hitman 2016 Intro - https://www.nexusmods.com/hitman3/mods/612
 
 ## What I've added/changed
 - Objective icons and detection arrows are colored again, which isn't completely accurate to H2016, but I like it this way.
-- Removed every Heritage UI customization option that isn't related to H2016 GOTY.
+- Removed every Heritage UI customization option that isn't related to H2016.
 - All objective icons have been rounded.
 - Selected menu tiles have a white outline around them instead of a bar at the bottom, and the drop shadow has been added back.
 - The target icon on the HUD, the one on the map, the intel icon, and the escape icon have been replaced with their respective ones from H2016.

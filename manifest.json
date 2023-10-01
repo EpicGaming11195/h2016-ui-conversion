@@ -1,9 +1,9 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
-	"description": "A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 GOTY as possible.",
+	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 GOTY as possible.",
 	"updateCheck": "https://raw.githubusercontent.com/EpicGaming11195/h2016-ui-conversion-updater/main/updater.json",
 	"authors": [
 		"EpicGaming11195",
@@ -204,14 +204,23 @@
 			"group": "UI Style"
 		},
 		{
-			"name": "On",
-			"tooltip": "Heritage UI's custom UI, made to evoke HITMAN 2016's UI, with some of my own customization.",
+			"name": "On (Colored Objectives)",
+			"tooltip": "Heritage UI's custom UI, with some of my own customization. Made to evoke HITMAN 2016's UI.",
 			"image": "framework content/UI_heritage.png",
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
 			"contentFolders": ["mod content/ui styles/heritage ui base"],
 			"enabledByDefault": true
+		},
+		{
+			"name": "On (Monochrome Objectives)",
+			"tooltip": "Heritage UI's custom UI, with some of my own customization. Makes objective icons black and white, like they are in the original Heritage UI.",
+			"image": "framework content/UI_heritage.png",
+			"type": "select",
+			"group": "UI Style",
+			"blobsFolders": ["mod content/ui styles/blobs"],
+			"contentFolders": ["mod content/ui styles/heritage ui base monochrome objectives"]
 		},
 		{
 			"name": "Off",
@@ -301,13 +310,21 @@
 			"group": "Attraction Screen Background"
 		},
 		{
-			"name": "On",
+			"name": "On (White)",
 			"tooltip": "Hitman 2016 GOTY's attraction screen.",
 			"image": "framework content/gotyas.png",
 			"type": "select",
 			"group": "Attraction Screen Background",
 			"blobsFolders": ["mod content/attraction screen/2016 goty var 2/blobs"],
 			"enabledByDefault": true
+		},
+		{
+			"name": "On (Red)",
+			"tooltip": "Hitman 2016's attraction screen.",
+			"image": "framework content/2016 background.png",
+			"type": "select",
+			"group": "Attraction Screen Background",
+			"blobsFolders": ["mod content/attraction screen/2016 attraction screen/blobs"]
 		},
 		{
 			"name": "Off",
@@ -317,13 +334,21 @@
 			"group": "Main Menu Background"
 		},
 		{
-			"name": "On",
+			"name": "On (White)",
 			"tooltip": "Hitman 2016 GOTY's in game background.",
 			"image": "framework content/classic_w1.png",
 			"type": "select",
 			"group": "Main Menu Background",
 			"blobsFolders": ["mod content/backgrounds/2016 background goty/blobs"],
 			"enabledByDefault": true
+		},
+		{
+			"name": "On (Red)",
+			"tooltip": "Hitman 2016's in game background.",
+			"image": "framework content/classic_r.png",
+			"type": "select",
+			"group": "Main Menu Background",
+			"blobsFolders": ["mod content/backgrounds/2016 background var 2/blobs"]
 		},
 		{
 			"name": "Off",
@@ -347,13 +372,21 @@
 			"group": "Loading Background"
 		},
 		{
-			"name": "On",
+			"name": "On (White)",
 			"tooltip": "Hitman 2016 GOTY's loading screen.",
 			"image": "framework content/gotyls.png",
 			"type": "select",
 			"group": "Loading Background",
 			"contentFolders": ["mod content/loading screens/2016 GOTY/content"],
 			"enabledByDefault": true
+		},
+		{
+			"name": "On (Red)",
+			"tooltip": "Hitman 2016's loading screen.",
+			"image": "framework content/ls_16.png",
+			"type": "select",
+			"group": "Loading Background",
+			"contentFolders": ["mod content/loading screens/2016/content"]
 		},
 		{
 			
@@ -364,13 +397,21 @@
 			"group": "Destination Backgrounds"
 		},
 		{
-			"name": "On",
+			"name": "On (White)",
 			"tooltip": "Heritage UI's destination backgrounds, inspired by the GOTY backgrounds.",
 			"image": "framework content/renewed.png",
 			"type": "select",
 			"group": "Destination Backgrounds",
 			"blobsFolders": ["mod content/dest bgs/HUI white/blobs"],
 			"enabledByDefault": true
+		},
+		{
+			"name": "On (Red)",
+			"tooltip": "Heritage UI's destination backgrounds, remade for the WOA release.",
+			"image": "framework content/d_r.png",
+			"type": "select",
+			"group": "Destination Backgrounds",
+			"blobsFolders": ["mod content/dest bgs/HUI Redux/blobs"]
 		},
 		{
 			"name": "Off",
