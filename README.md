@@ -2,7 +2,7 @@
 A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make Hitman 3's UI look as close to Hitman 2016 as possible.
 
 ### Download it here
-[insert link to the mod when its uploaded]
+https://www.nexusmods.com/hitman3/mods/624
 
 ### Links to the original mods
 Heritage UI - https://www.nexusmods.com/hitman3/mods/323
