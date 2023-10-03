@@ -24,7 +24,7 @@ Hitman 2016 Intro - https://www.nexusmods.com/hitman3/mods/612
 - Changed the illegal item/action icon to the one from H2016.
 - (Off by default) Changed a bunch of the guns' names to be more consistent with each other.
 
-If you see anything in this changelog that you don't like, there's probably an option to turn it off in the SMF mod config page.
+If you see anything in this changelog that you don't like, there's probably an option to change it or turn it off in the SMF mod config page.
 
 ## Credits
 [Burn, The Witch](https://www.nexusmods.com/users/121153618), for making Heritage UI, granting me permission to modify it, and indirectly teaching me so much about modding Hitman. You can really learn a lot by reverse-engineering and modifying someone else's mod.
