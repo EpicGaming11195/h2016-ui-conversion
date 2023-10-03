@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 GOTY as possible.",
@@ -242,6 +242,30 @@
 		},
 		{
 			"name": "Off",
+			"tooltip": "HITMAN WOA's default menu colors.",
+			"image": "framework content/HUI_DEST.png",
+			"type": "select",
+			"group": "Menu Color"
+		},
+		{
+			"name": "On (GOTY)",
+			"tooltip": "HITMAN 2016 GOTY's monochromatic menu colors. (Background color is a separate option.)",
+			"image": "framework content/theme_goty.png",
+			"type": "select",
+			"group": "Menu Color",
+			"contentFolders": ["mod content/menu styles/goty"],
+			"enabledByDefault": true
+		},
+		{
+			"name": "On (Original 2016)",
+			"tooltip": "HITMAN 2016's dark red menu colors. (Background color is a separate option.)",
+			"image": "framework content/theme_2016.png",
+			"type": "select",
+			"group": "Menu Color",
+			"contentFolders": ["mod content/menu styles/original"]
+		},
+		{
+			"name": "Off",
 			"tooltip": "HITMAN WOA's default intro.",
 			"image": "framework content/intro_woa.png",
 			"type": "select",
@@ -346,14 +370,14 @@
 		},
 		{
 			"name": "Off",
-			"tooltip": "HITMAN 3's default main menu background.",
+			"tooltip": "HITMAN 3's default menu background.",
 			"image": "framework content/menu_base.png",
 			"type": "select",
 			"group": "Main Menu Background"
 		},
 		{
 			"name": "On (White)",
-			"tooltip": "Hitman 2016 GOTY's in game background.",
+			"tooltip": "Hitman 2016 GOTY's menu background.",
 			"image": "framework content/classic_w1.png",
 			"type": "select",
 			"group": "Main Menu Background",
@@ -362,7 +386,7 @@
 		},
 		{
 			"name": "On (Red)",
-			"tooltip": "Hitman 2016's in game background.",
+			"tooltip": "Hitman 2016's menu background.",
 			"image": "framework content/classic_r.png",
 			"type": "select",
 			"group": "Main Menu Background",
