@@ -21,7 +21,7 @@ Hitman 2016 Intro - https://www.nexusmods.com/hitman3/mods/612
 - Added the dotted square on the minimap for when you're trespassing. (It is a bit translucent, but I don't exactly know how to fix that.)
 - Trespassing, compromised, and unconscious witness icons are now arrows.
 - Replaced the menu tile icons for some things (e.g. the career page, the load game button) with the ones from H2016.
-- Changed the illegal item/action icon to the one from H2016.
+- Changed the illegal item/action icon to the one from H2016, and repositioned it to the corner of the interaction circle.
 - Removed the dot reticle shown when you're holding a gun but not aiming it.
 - (Off by default) Changed a bunch of the guns' names to be more consistent with each other.
 
