@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -551,13 +551,40 @@
 			"group": "Destination Menu"
 		},
 		{
-			"name": "On",
+			"name": "On (H3 Images)",
 			"tooltip": "Heritage UI's custom destination menu.",
 			"image": "framework content/HUI_DEST.png",
 			"type": "select",
 			"group": "Destination Menu",
-			"blobsFolders": ["mod content/menus/destination menu/blobs"],
+			"blobsFolders": ["mod content/menus/destination menu/h3/blobs"]
+		},
+		{
+			"name": "On (H2016 GOTY Images)",
+			"tooltip": "Heritage UI's custom destination menu, with H2016 GOTY's thumbnails for the Season 1 destinations.",
+			"image": "framework content/dest_icons_goty.png",
+			"type": "select",
+			"group": "Destination Menu",
+			"blobsFolders": ["mod content/menus/destination menu/goty/blobs"],
+			"contentFolders": ["mod content/destinations menu pictures/goty"],
 			"enabledByDefault": true
+		},
+		{
+			"name": "On (Original 2016)",
+			"tooltip": "Heritage UI's custom destination menu, with pre-GOTY HITMAN 2016's thumbnails for the Season 1 destinations.",
+			"image": "framework content/dest_icons_old2016.png",
+			"type": "select",
+			"group": "Destination Menu",
+			"blobsFolders": ["mod content/menus/destination menu/old2016/blobs"],
+			"contentFolders": ["mod content/destinations menu pictures/old2016"]
+		},
+		{
+			"name": "On (2016 Hybrid)",
+			"tooltip": "Heritage UI's custom destination menu with the GOTY thumbnails, but with the old ICA facility one and a centered Paris one.",
+			"image": "framework content/dest_icons_hybrid.png",
+			"type": "select",
+			"group": "Destination Menu",
+			"blobsFolders": ["mod content/menus/destination menu/hybrid/blobs"],
+			"contentFolders": ["mod content/destinations menu pictures/hybrid"]
 		},
 		{
 			"name": "Off",
