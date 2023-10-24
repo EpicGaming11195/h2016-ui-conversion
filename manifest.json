@@ -1,9 +1,9 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.3.4",
+	"version": "1.4.0",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
-	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 GOTY as possible.",
+	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
 	"updateCheck": "https://raw.githubusercontent.com/EpicGaming11195/h2016-ui-conversion-updater/main/updater.json",
 	"authors": [
 		"EpicGaming11195",
@@ -248,8 +248,8 @@
 			"group": "Menu Color"
 		},
 		{
-			"name": "On (GOTY, White Pause Menu)",
-			"tooltip": "HITMAN 2016 GOTY's monochromatic menu colors. (Background color is a separate option.)",
+			"name": "On (GOTY)",
+			"tooltip": "HITMAN 2016 GOTY's monochromatic menu colors.",
 			"image": "framework content/theme_goty.png",
 			"type": "select",
 			"group": "Menu Color",
@@ -257,17 +257,17 @@
 			"enabledByDefault": true
 		},
 		{
-			"name": "On (GOTY, Black Pause Menu)",
-			"tooltip": "HITMAN 2016 GOTY's monochromatic menu colors, with a dark pause menu background. (Background color is a separate option.)",
-			"image": "framework content/theme_goty.png",
+			"name": "On (Original 2016)",
+			"tooltip": "HITMAN 2016's red and white menu colors. Since I don't have a copy of pre-GOTY H2016 to reference, I had to use old YouTube videos as a reference instead, so some things may not be totally accurate.",
+			"image": "framework content/theme_old2016.png",
 			"type": "select",
 			"group": "Menu Color",
-			"contentFolders": ["mod content/menu styles/goty black pause menu"]
+			"contentFolders": ["mod content/menu styles/old2016"]
 		},
 		{
-			"name": "On (Original 2016)",
-			"tooltip": "HITMAN 2016's dark red menu colors. (Background color is a separate option.)",
-			"image": "framework content/theme_2016.png",
+			"name": "On (Heritage UI Red)",
+			"tooltip": "Heritage UI's original menu color scheme.",
+			"image": "framework content/theme_hui.png",
 			"type": "select",
 			"group": "Menu Color",
 			"contentFolders": ["mod content/menu styles/original"]
