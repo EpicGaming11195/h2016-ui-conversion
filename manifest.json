@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.4.1",
+	"version": "1.4.2",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -258,7 +258,7 @@
 		},
 		{
 			"name": "On (Original 2016)",
-			"tooltip": "HITMAN 2016's red and white menu colors. Since I don't have a copy of pre-GOTY H2016 to reference, I had to use old YouTube videos as a reference instead, so some things may not be totally accurate.",
+			"tooltip": "HITMAN 2016's original red and white menu colors.",
 			"image": "framework content/theme_old2016.png",
 			"type": "select",
 			"group": "Menu Color",
