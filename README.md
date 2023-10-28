@@ -24,7 +24,7 @@ Hitman 2016 Intro - https://www.nexusmods.com/hitman3/mods/612
 - Replaced the menu tile icons for some things (e.g. the career page, the load game button) with the ones from H2016.
 - Changed the illegal item/action icon to the one from H2016, and repositioned it to the corner of the interaction circle.
 - Removed the dot reticle shown when you're holding a gun but not aiming it.
-- (Off by default) Changed a bunch of the guns' names to be more consistent with each other.
+- (Off by default) Changed a bunch of the items' names to be more consistent with each other.
 
 If you see anything in this changelog that you don't like, there's probably an option to change it or turn it off in the SMF mod config page.
 

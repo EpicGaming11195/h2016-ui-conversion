@@ -1018,12 +1018,10 @@
 						"1313064352": "Striker",
 						"153662862": "Sieker 1"
 					},
-					"french": {
-					},
+					"french": {},
 					"italian": {},
 					"german": {},
-					"spanish": {
-					},
+					"spanish": {},
 					"russian": {},
 					"chineseSimplified": {},
 					"chineseTraditional": {},
@@ -1088,12 +1086,10 @@
 						"923417469": "Krugermeier 2-2 (Silver)",
 						"4049702267": "Krugermeier 2-2 (Dark)"
 					},
-					"french": {
-					},
+					"french": {},
 					"italian": {},
 					"german": {},
-					"spanish": {
-					},
+					"spanish": {},
 					"russian": {},
 					"chineseSimplified": {},
 					"chineseTraditional": {},
@@ -1115,14 +1111,16 @@
 						"1596987004": "Dragon Briefcase",
 						"2359075170": "Brown Leather Briefcase",
 						"1423618173": "Emetic Guru Syringe",
-						"1021829317": "Emetic Guru Grenade"
+						"1021829317": "Emetic Guru Grenade",
+						"362218065": "Proximity CX Demo Block Mk III",
+						"1122450144": "Remote CX Demo Block Mk III",
+						"505629393": "ICA Lethal Pen Syringe",
+						"1177362553": "ICA Emetic Pen Syringe"
 					},
-					"french": {
-					},
+					"french": {},
 					"italian": {},
 					"german": {},
-					"spanish": {
-					},
+					"spanish": {},
 					"russian": {},
 					"chineseSimplified": {},
 					"chineseTraditional": {},
@@ -1132,14 +1130,20 @@
 					"english": {
 						"3578533398": "Jarl's Sabre",
 						"2161820740": "A rusty, old pirate sabre. Owned by Jarl, Son of Hanne, first mate to the Dread Pirate 'The Black Almond.'",
-						"3743964724": "Electronic Key Hacker Mk II"
+						"3743964724": "Electronic Key Hacker Mk II",
+						"916123602": "ICA Remote Micro Explosive",
+						"1195175646": "Remote Micro Explosive Detonator",
+						"3581909364": "Modern Lethal Syringe Mk II",
+						"3725970915": "Modern Emetic Syringe Mk II",
+						"3040059663": "Modern Sedative Syringe Mk II",
+						"1613816122": "ICA Remote Emetic Gas Device",
+						"640798029": "Remote Concussion Rubber Duck",
+						"754374545": "Concussion Rubber Duck Detonator"
 					},
-					"french": {
-					},
+					"french": {},
 					"italian": {},
 					"german": {},
-					"spanish": {
-					},
+					"spanish": {},
 					"russian": {},
 					"chineseSimplified": {},
 					"chineseTraditional": {},
@@ -1157,12 +1161,10 @@
 						"761385482": "Sieger 300 (Ice)",
 						"3508225118": "Jaeger 7 (Snow Fox)"
 					},
-					"french": {
-					},
+					"french": {},
 					"italian": {},
 					"german": {},
-					"spanish": {
-					},
+					"spanish": {},
 					"russian": {},
 					"chineseSimplified": {},
 					"chineseTraditional": {},
@@ -1175,14 +1177,16 @@
 						"1845844159": "A cavalry sabre. Napoleonic era. Effective when used in close combat.",
 						"3635015000": "Sieger 300 (Advanced)",
 						"1052273333": "Electronic Key Hacker",
-						"2114703880": "Bartoli 12G Tactical"
+						"2114703880": "Bartoli 12G Tactical",
+						"3987272103": "Breaching Charge",
+						"349114451": "Remote Explosive Rubber Duck",
+						"2283365149": "Proximity Explosive Rubber Duck",
+						"1707766339": "Remote Explosive Rubber Duck (Pale)"
 					},
-					"french": {
-					},
+					"french": {},
 					"italian": {},
 					"german": {},
-					"spanish": {
-					},
+					"spanish": {},
 					"russian": {},
 					"chineseSimplified": {},
 					"chineseTraditional": {},
@@ -1233,12 +1237,10 @@
 						"1321936074": "Straitjacket",
 						"3223664876": "Arctic Ninja"
 					},
-					"french": {
-					},
+					"french": {},
 					"italian": {},
 					"german": {},
-					"spanish": {
-					},
+					"spanish": {},
 					"russian": {},
 					"chineseSimplified": {},
 					"chineseTraditional": {},
@@ -1260,12 +1262,10 @@
 						"3876710900": "Cashmerian Suit",
 						"836824045": "Suburban Suit with Gloves"
 					},
-					"french": {
-					},
+					"french": {},
 					"italian": {},
 					"german": {},
-					"spanish": {
-					},
+					"spanish": {},
 					"russian": {},
 					"chineseSimplified": {},
 					"chineseTraditional": {},
@@ -1275,12 +1275,10 @@
 					"english": {
 						"1199489516": "Gauze Suit"
 					},
-					"french": {
-					},
+					"french": {},
 					"italian": {},
 					"german": {},
-					"spanish": {
-					},
+					"spanish": {},
 					"russian": {},
 					"chineseSimplified": {},
 					"chineseTraditional": {},
@@ -1291,12 +1289,10 @@
 						"1574577192": "Santa Suit",
 						"3309453482": "Terminus Suit"
 					},
-					"french": {
-					},
+					"french": {},
 					"italian": {},
 					"german": {},
-					"spanish": {
-					},
+					"spanish": {},
 					"russian": {},
 					"chineseSimplified": {},
 					"chineseTraditional": {},
