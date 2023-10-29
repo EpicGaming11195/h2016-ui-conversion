@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.4.3",
+	"version": "1.4.4",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -295,7 +295,7 @@
 			"image": "framework content/theme_goty.png",
 			"type": "select",
 			"group": "Menu Color",
-			"contentFolders": ["mod content/menu styles/goty"],
+			"contentFolders": ["mod content/menu styles/dark dialog/goty"],
 			"enabledByDefault": true
 		},
 		{
@@ -304,7 +304,23 @@
 			"image": "framework content/theme_old2016.png",
 			"type": "select",
 			"group": "Menu Color",
-			"contentFolders": ["mod content/menu styles/old2016"]
+			"contentFolders": ["mod content/menu styles/dark dialog/old2016"]
+		},
+		{
+			"name": "On (GOTY, Light Dialog Boxes)",
+			"tooltip": "HITMAN 2016 GOTY's monochromatic menu colors. Has white dialog boxes, which is more accurate to H2016, but some specific dialogs (e.g. contract briefing) don't work properly with this option.",
+			"image": "framework content/theme_goty.png",
+			"type": "select",
+			"group": "Menu Color",
+			"contentFolders": ["mod content/menu styles/light dialog/goty"]
+		},
+		{
+			"name": "On (Original 2016, Light Dialog Boxes)",
+			"tooltip": "HITMAN 2016's original red and white menu colors. Has white dialog boxes, which is more accurate to H2016, but some specific dialogs (e.g. contract briefing) don't work properly with this option.",
+			"image": "framework content/theme_old2016.png",
+			"type": "select",
+			"group": "Menu Color",
+			"contentFolders": ["mod content/menu styles/light dialog/old2016"]
 		},
 		{
 			"name": "On (Heritage UI Red)",
