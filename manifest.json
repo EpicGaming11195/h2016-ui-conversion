@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.4.3",
+	"version": "1.4.4",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -252,7 +252,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/heritage ui base"],
+			"contentFolders": ["mod content/ui styles/heritage ui base", "mod content/ui styles/common"],
 			"enabledByDefault": true
 		},
 		{
@@ -262,7 +262,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/heritage ui base monochrome objectives"]
+			"contentFolders": ["mod content/ui styles/heritage ui base monochrome objectives", "mod content/ui styles/common"]
 		},
 		{
 			"name": "On (Colored Objectives, White Detection)",
@@ -271,7 +271,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/heritage ui base white detection"]
+			"contentFolders": ["mod content/ui styles/heritage ui base white detection", "mod content/ui styles/common"]
 		},
 		{
 			"name": "On (Monochrome Objectives, White Detection)",
@@ -280,7 +280,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/heritage ui base both monochrome"]
+			"contentFolders": ["mod content/ui styles/heritage ui base both monochrome", "mod content/ui styles/common"]
 		},
 		{
 			"name": "Off",
