@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.4.4",
+	"version": "1.4.5",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -248,7 +248,7 @@
 		{
 			"name": "On (Colored Objectives, Yellow Detection)",
 			"tooltip": "Heritage UI's custom UI, with some of my own customization. Objective icons are various colors, and the detection arrow is yellow.",
-			"image": "framework content/UI_heritage.png",
+			"image": "framework content/ui_colored_objs_yellow_detection.png",
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
@@ -258,7 +258,7 @@
 		{
 			"name": "On (Monochrome Objectives, Yellow Detection)",
 			"tooltip": "Heritage UI's custom UI, with some of my own customization. Objective icons are black and white, and the detection arrow is yellow.",
-			"image": "framework content/UI_heritage.png",
+			"image": "framework content/ui_b&w_objs_yellow_detection.png",
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
@@ -267,7 +267,7 @@
 		{
 			"name": "On (Colored Objectives, White Detection)",
 			"tooltip": "Heritage UI's custom UI, with some of my own customization. Objective icons are various colors, and the detection arrow is white.",
-			"image": "framework content/UI_heritage.png",
+			"image": "framework content/ui_colored_objs_white_detection.png",
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
@@ -276,7 +276,7 @@
 		{
 			"name": "On (Monochrome Objectives, White Detection)",
 			"tooltip": "Heritage UI's custom UI, with some of my own customization. Objective icons are black and white, and the detection arrow is white.",
-			"image": "framework content/UI_heritage.png",
+			"image": "framework content/ui_b&w_objs_white_detection.png",
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
@@ -292,7 +292,7 @@
 		{
 			"name": "On (GOTY)",
 			"tooltip": "HITMAN 2016 GOTY's monochromatic menu colors.",
-			"image": "framework content/theme_goty.png",
+			"image": "framework content/theme_goty_dark_dialog.png",
 			"type": "select",
 			"group": "Menu Color",
 			"contentFolders": ["mod content/menu styles/dark dialog/goty"],
@@ -301,7 +301,7 @@
 		{
 			"name": "On (Original 2016)",
 			"tooltip": "HITMAN 2016's original red and white menu colors.",
-			"image": "framework content/theme_old2016.png",
+			"image": "framework content/theme_old2016_dark_dialog.png",
 			"type": "select",
 			"group": "Menu Color",
 			"contentFolders": ["mod content/menu styles/dark dialog/old2016"]
@@ -309,7 +309,7 @@
 		{
 			"name": "On (GOTY, Light Dialog Boxes)",
 			"tooltip": "HITMAN 2016 GOTY's monochromatic menu colors. Has white dialog boxes, which is more accurate to H2016, but some specific dialogs (e.g. contract briefing) don't work properly with this option.",
-			"image": "framework content/theme_goty.png",
+			"image": "framework content/theme_goty_light_dialog.png",
 			"type": "select",
 			"group": "Menu Color",
 			"contentFolders": ["mod content/menu styles/light dialog/goty"]
@@ -317,7 +317,7 @@
 		{
 			"name": "On (Original 2016, Light Dialog Boxes)",
 			"tooltip": "HITMAN 2016's original red and white menu colors. Has white dialog boxes, which is more accurate to H2016, but some specific dialogs (e.g. contract briefing) don't work properly with this option.",
-			"image": "framework content/theme_old2016.png",
+			"image": "framework content/theme_old2016_light_dialog.png",
 			"type": "select",
 			"group": "Menu Color",
 			"contentFolders": ["mod content/menu styles/light dialog/old2016"]
