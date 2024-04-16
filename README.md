@@ -17,7 +17,7 @@ Hitman 2016 Intro - https://www.nexusmods.com/hitman3/mods/612
 - Added back the pause menu/inventory's background blur effect.
 - All objective icons have been rounded.
 - Selected menu tiles have a white outline around them instead of a bar at the bottom, and the drop shadow has been added back.
-- Added two menu color schemes: one based on H2016 GOTY, and one based on the original H2016.
+- Added two menu and UI themes: one based on H2016 GOTY, and one based on the original H2016.
 - The target icon on the HUD, the one on the map, the intel icon, and the escape icon have been replaced with their respective ones from H2016.
 - Added the dotted square on the minimap for when you're trespassing. (It is a bit translucent, but I don't exactly know how to fix that.)
 - Trespassing, compromised, and unconscious witness icons are now arrows.
