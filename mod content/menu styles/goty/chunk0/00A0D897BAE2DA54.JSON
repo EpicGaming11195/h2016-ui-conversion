@@ -1,0 +1,63 @@
+{
+    "$datacontext": {
+        "in": "$.",
+        "datavalues": {
+            "Lines": {
+                "$if": {
+                    "$condition": {
+                        "$and": [
+                            "$not $.Location.Properties.UpcomingContent",
+                            "$isonline"
+                        ]
+                    },
+                    "$then": [
+                        "$formatstring {$loc UI_MENU_PAGE_TOTAL_COMPLETION} {$intclamp $.LocationCompletionPercent,.0f}%",
+                        "$formatstring {$loc UI_MENU_PAGE_LOCATION_COMPLETION}  {$.ChallengeCompletion.CompletedChallengesCount,.0f} {$loc UI_DIALOG_SLASH} {$.ChallengeCompletion.ChallengesCount,.0f}",
+                        {
+                            "$if $gt($.OpportunityStatistics.Count,0)": {
+                                "$then": "$formatstring {$loc UI_BRIEFING_OPPORTUNITIES}  {$.OpportunityStatistics.Completed,.0f} {$loc UI_DIALOG_SLASH} {$.OpportunityStatistics.Count,.0f}",
+                                "$else": null
+                            }
+                        }
+                    ],
+                    "$else": []
+                }
+            }
+        },
+        "do": {
+            "$each $.Lines": {
+                "controller": "list",
+                "view": "menu3.containers.ListContainer",
+                "direction": "horizontal",
+                "data": {
+                    "direction": "horizontal"
+                },
+                "children": [
+                    {
+                        "id": "statusline_element",
+                        "view": "menu3.TextboxElement",
+                        "data": {
+                            "font": "bold",
+                            "multiline": false,
+                            "text": "$.",
+                            "toUpper": true,
+                            "size": 18,
+                            "color": "#464646",
+                            "height": 20,
+                            "width": 600,
+                            "dropShadow": true,
+                            "useDynamicTextBounds": true
+                        }
+                    },
+                    {
+                        "view": "menu3.basic.Divider",
+                        "nrows": 0.1,
+                        "ncols": 0.2,
+                        "selectable": false,
+                        "pressable": false
+                    }
+                ]
+            }
+        }
+    }
+}

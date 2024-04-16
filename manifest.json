@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.4.5",
+	"version": "2.0.0",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -11,7 +11,7 @@
 		"beneddyguitar"
 	],
 	"blobsFolders": ["mod content/base/blobs"],
-	"frameworkVersion": "2.15.1",
+	"frameworkVersion": "2.33.9",
 	"loadAfter": [
 	],
 	"localisation": {
@@ -246,90 +246,114 @@
 			"group": "UI Style"
 		},
 		{
-			"name": "On (Colored Objectives, Yellow Detection)",
-			"tooltip": "Heritage UI's custom UI, with some of my own customization. Objective icons are various colors, and the detection arrow is yellow.",
-			"image": "framework content/ui_colored_objs_yellow_detection.png",
+			"name": "GOTY (Base)",
+			"tooltip": "Heritage UI's custom UI, with some of my own customization. (GOTY UI colors, multicolored objective icons, yellow detection arrows.)",
+			"image": "framework content/ui_colored_objs_yellow_detection_goty.png",
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/heritage ui base", "mod content/ui styles/common"],
+			"contentFolders": ["mod content/ui styles/goty/heritage ui base", "mod content/ui styles/common"],
 			"enabledByDefault": true
 		},
 		{
-			"name": "On (Monochrome Objectives, Yellow Detection)",
-			"tooltip": "Heritage UI's custom UI, with some of my own customization. Objective icons are black and white, and the detection arrow is yellow.",
-			"image": "framework content/ui_b&w_objs_yellow_detection.png",
+			"name": "GOTY (Monochrome Objectives)",
+			"tooltip": "Heritage UI's custom UI, with some of my own customization. (GOTY UI colors, black and white objective icons, yellow detection arrows.)",
+			"image": "framework content/ui_b&w_objs_yellow_detection_goty.png",
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/heritage ui base monochrome objectives", "mod content/ui styles/common"]
+			"contentFolders": ["mod content/ui styles/goty/heritage ui base monochrome objectives", "mod content/ui styles/common"]
 		},
 		{
-			"name": "On (Colored Objectives, White Detection)",
-			"tooltip": "Heritage UI's custom UI, with some of my own customization. Objective icons are various colors, and the detection arrow is white.",
-			"image": "framework content/ui_colored_objs_white_detection.png",
+			"name": "GOTY (White Detection)",
+			"tooltip": "Heritage UI's custom UI, with some of my own customization. (GOTY UI colors, multicolored objective icons, white detection arrows.)",
+			"image": "framework content/ui_colored_objs_white_detection_goty.png",
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/heritage ui base white detection", "mod content/ui styles/common"]
+			"contentFolders": ["mod content/ui styles/goty/heritage ui base white detection", "mod content/ui styles/common"]
 		},
 		{
-			"name": "On (Monochrome Objectives, White Detection)",
-			"tooltip": "Heritage UI's custom UI, with some of my own customization. Objective icons are black and white, and the detection arrow is white.",
-			"image": "framework content/ui_b&w_objs_white_detection.png",
+			"name": "GOTY (B&W Objectives, White Detection)",
+			"tooltip": "Heritage UI's custom UI, with some of my own customization. (GOTY UI colors, black and white objective icons, white detection arrows.)",
+			"image": "framework content/ui_b&w_objs_white_detection_goty.png",
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/heritage ui base both monochrome", "mod content/ui styles/common"]
+			"contentFolders": ["mod content/ui styles/goty/heritage ui base both monochrome", "mod content/ui styles/common"]
 		},
+		{
+			"name": "Old 2016 (Base)",
+			"tooltip": "Heritage UI's custom UI, with some of my own customization. (Old 2016 UI colors, multicolored objective icons, yellow detection arrows.)",
+			"image": "framework content/ui_colored_objs_yellow_detection_old2016.png",
+			"type": "select",
+			"group": "UI Style",
+			"blobsFolders": ["mod content/ui styles/blobs"],
+			"contentFolders": ["mod content/ui styles/old2016/heritage ui base", "mod content/ui styles/common"]
+		},
+		{
+			"name": "Old 2016 (Monochrome Objectives)",
+			"tooltip": "Heritage UI's custom UI, with some of my own customization. (Old 2016 UI colors, black and white objective icons, yellow detection arrows.)",
+			"image": "framework content/ui_b&w_objs_yellow_detection_old2016.png",
+			"type": "select",
+			"group": "UI Style",
+			"blobsFolders": ["mod content/ui styles/blobs"],
+			"contentFolders": ["mod content/ui styles/old2016/heritage ui base monochrome objectives", "mod content/ui styles/common"]
+		},
+		{
+			"name": "Old 2016 (White Detection)",
+			"tooltip": "Heritage UI's custom UI, with some of my own customization. (Old 2016 UI colors, multicolored objective icons, white detection arrows.)",
+			"image": "framework content/ui_colored_objs_white_detection_old2016.png",
+			"type": "select",
+			"group": "UI Style",
+			"blobsFolders": ["mod content/ui styles/blobs"],
+			"contentFolders": ["mod content/ui styles/old2016/heritage ui base white detection", "mod content/ui styles/common"]
+		},
+		{
+			"name": "Old 2016 (B&W Objectives, White Detection)",
+			"tooltip": "Heritage UI's custom UI, with some of my own customization. (Old 2016 UI colors, black and white objective icons, white detection arrows.)",
+			"image": "framework content/ui_b&w_objs_white_detection_old2016.png",
+			"type": "select",
+			"group": "UI Style",
+			"blobsFolders": ["mod content/ui styles/blobs"],
+			"contentFolders": ["mod content/ui styles/old2016/heritage ui base both monochrome", "mod content/ui styles/common"]
+		},
+
+
 		{
 			"name": "Off",
-			"tooltip": "HITMAN WOA's default menu colors.",
+			"tooltip": "HITMAN WOA's default menu style.",
 			"image": "framework content/HUI_DEST.png",
 			"type": "select",
-			"group": "Menu Color"
+			"group": "Menu Theme"
 		},
 		{
 			"name": "On (GOTY)",
-			"tooltip": "HITMAN 2016 GOTY's monochromatic menu colors.",
-			"image": "framework content/theme_goty_dark_dialog.png",
+			"tooltip": "HITMAN 2016 GOTY's monochromatic menu style.",
+			"image": "framework content/theme_goty.png",
 			"type": "select",
-			"group": "Menu Color",
-			"contentFolders": ["mod content/menu styles/dark dialog/goty"],
+			"group": "Menu Theme",
+			"contentFolders": ["mod content/menu styles/goty", "mod content/mission end screen 47 renders/goty", "mod content/misc menu tiles/common", "mod content/misc menu tiles/goty"],
 			"enabledByDefault": true
 		},
 		{
 			"name": "On (Original 2016)",
-			"tooltip": "HITMAN 2016's original red and white menu colors.",
-			"image": "framework content/theme_old2016_dark_dialog.png",
+			"tooltip": "HITMAN 2016's original red and white menu style.",
+			"image": "framework content/theme_old2016.png",
 			"type": "select",
-			"group": "Menu Color",
-			"contentFolders": ["mod content/menu styles/dark dialog/old2016"]
-		},
-		{
-			"name": "On (GOTY, Light Dialog Boxes)",
-			"tooltip": "HITMAN 2016 GOTY's monochromatic menu colors. Has white dialog boxes, which is more accurate to H2016, but some specific dialogs (e.g. contract briefing) don't work properly with this option.",
-			"image": "framework content/theme_goty_light_dialog.png",
-			"type": "select",
-			"group": "Menu Color",
-			"contentFolders": ["mod content/menu styles/light dialog/goty"]
-		},
-		{
-			"name": "On (Original 2016, Light Dialog Boxes)",
-			"tooltip": "HITMAN 2016's original red and white menu colors. Has white dialog boxes, which is more accurate to H2016, but some specific dialogs (e.g. contract briefing) don't work properly with this option.",
-			"image": "framework content/theme_old2016_light_dialog.png",
-			"type": "select",
-			"group": "Menu Color",
-			"contentFolders": ["mod content/menu styles/light dialog/old2016"]
+			"group": "Menu Theme",
+			"contentFolders": ["mod content/menu styles/old2016", "mod content/misc menu tiles/common", "mod content/misc menu tiles/old2016"]
 		},
 		{
 			"name": "On (Heritage UI Red)",
-			"tooltip": "Heritage UI's original menu color scheme.",
+			"tooltip": "Heritage UI's original menu style.",
 			"image": "framework content/theme_hui.png",
 			"type": "select",
-			"group": "Menu Color",
+			"group": "Menu Theme",
 			"contentFolders": ["mod content/menu styles/original"]
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "HITMAN WOA's default intro.",
@@ -339,7 +363,7 @@
 		},
 		{
 			"name": "On (Variation 1)",
-			"tooltip": "HITMAN 2016's intro.",
+			"tooltip": "HITMAN 2016 GOTY's intro.",
 			"image": "framework content/intro_2016.png",
 			"type": "select",
 			"group": "Intro Video",
@@ -348,7 +372,7 @@
 		},
 		{
 			"name": "On (Variation 1 Shortened)",
-			"tooltip": "HITMAN 2016's intro, cut after the logos are shown.",
+			"tooltip": "HITMAN 2016 GOTY's intro, cut after the logos are shown.",
 			"image": "framework content/intro_2016.png",
 			"type": "select",
 			"group": "Intro Video",
@@ -356,12 +380,22 @@
 		},
 		{
 			"name": "On (Variation 2)",
-			"tooltip": "HITMAN 2016's old intro.",
+			"tooltip": "To be honest, I don't know what version of H2016 this intro is from, all I know is that it was in the game files.",
 			"image": "framework content/intro_2016_2.png",
 			"type": "select",
 			"group": "Intro Video",
 			"contentFolders": ["mod content/intro/2016_var2"]
 		},
+		{
+			"name": "On (Variation 3)",
+			"tooltip": "HITMAN 2016's old intro, cut after the logos are shown.",
+			"image": "framework content/intro_2016_3.png",
+			"type": "select",
+			"group": "Intro Video",
+			"contentFolders": ["mod content/intro/2016_var3"]
+		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "HITMAN WOA's default objective size.",
@@ -378,6 +412,8 @@
 			"group": "Objective Scale",
 			"contentFolders": ["mod content/objscale"]
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "HITMAN WOA's Vanilla boot logo.",
@@ -394,6 +430,8 @@
 			"contentFolders": ["mod content/at logos/2016"],
 			"enabledByDefault": true
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "HITMAN WOA's default logo position.",
@@ -410,6 +448,8 @@
 			"contentFolders": ["mod content/logo pos"],
 			"enabledByDefault": true
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "Hitman WOA's default Attraction Screen.",
@@ -434,6 +474,8 @@
 			"group": "Attraction Screen Background",
 			"blobsFolders": ["mod content/attraction screen/2016 attraction screen/blobs"]
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "HITMAN 3's default menu background.",
@@ -442,9 +484,9 @@
 			"group": "Main Menu Background"
 		},
 		{
-			"name": "On (White)",
-			"tooltip": "Hitman 2016 GOTY's menu background.",
-			"image": "framework content/classic_w1.png",
+			"name": "On (GOTY)",
+			"tooltip": "Hitman 2016 GOTY's menu background. It will look darker than normal when not used with the GOTY menu theme, as the theme puts a white overlay on all menu BGs.",
+			"image": "framework content/goty_menu_bg.png",
 			"type": "select",
 			"group": "Main Menu Background",
 			"blobsFolders": ["mod content/backgrounds/2016 background goty/blobs"],
@@ -459,6 +501,16 @@
 			"blobsFolders": ["mod content/backgrounds/2016 background var 2/blobs"]
 		},
 		{
+			"name": "On (White OLD)",
+			"tooltip": "(DON'T use this together with the GOTY menu theme, the white overlay will make the BG too bright. Use the \"On (GOTY)\" option instead.) HUI's GOTY-inspired menu background.",
+			"image": "framework content/classic_w1.png",
+			"type": "select",
+			"group": "Main Menu Background",
+			"blobsFolders": ["mod content/backgrounds/2016 background var 2/blobs"]
+		},
+
+
+		{
 			"name": "Off",
 			"tooltip": "HITMAN WOA's default menu music.",
 			"type": "select",
@@ -472,6 +524,8 @@
 			"contentFolders": ["mod content/music"],
 			"enabledByDefault": true
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "Hitman WOA's default loading screen.",
@@ -496,31 +550,34 @@
 			"group": "Loading Background",
 			"contentFolders": ["mod content/loading screens/2016/content"]
 		},
+
+
 		{
 			
-			"name": "Off",
-			"tooltip": "Hitman WOA's default destination backgrounds.",
+			"name": "Off (Default/GOTY)",
+			"tooltip": "Hitman WOA's default destination backgrounds. Select this option if you're using the GOTY menu theme.",
 			"image": "framework content/d_v.png",
 			"type": "select",
-			"group": "Destination Backgrounds"
-		},
-		{
-			"name": "On (White)",
-			"tooltip": "Heritage UI's destination backgrounds, inspired by the GOTY backgrounds.",
-			"image": "framework content/renewed.png",
-			"type": "select",
 			"group": "Destination Backgrounds",
-			"blobsFolders": ["mod content/dest bgs/HUI white/blobs"],
 			"enabledByDefault": true
 		},
 		{
 			"name": "On (Red)",
-			"tooltip": "Heritage UI's destination backgrounds, remade for the WOA release.",
+			"tooltip": "Heritage UI's red destination backgrounds, remade for the WOA release.",
 			"image": "framework content/d_r.png",
 			"type": "select",
 			"group": "Destination Backgrounds",
 			"blobsFolders": ["mod content/dest bgs/HUI Redux/blobs"]
 		},
+		{
+			"name": "On (White OLD)",
+			"tooltip": "(DON'T use this together with the GOTY menu theme, the white overlay will make the BGs too bright. Use the \"Off\" option instead.) Heritage UI's destination backgrounds, inspired by the GOTY backgrounds.",
+			"image": "framework content/renewed.png",
+			"type": "select",
+			"group": "Destination Backgrounds",
+			"blobsFolders": ["mod content/dest bgs/HUI white/blobs"]
+		},
+
 		{
 			"name": "Off",
 			"image": "framework content/vanilla_maps.png",
@@ -533,10 +590,12 @@
 			"image": "framework content/2016_maps.png",
 			"type": "select",
 			"group": "Map Colors",
-			"tooltip": "Heritage UI's custom map colors, mimicking Hitman 2016.",
+			"tooltip": "Heritage UI's custom map colors, mimicking Hitman 2016 GOTY.",
 			"contentFolders": ["mod content/map"],
 			"enabledByDefault": true
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "HITMAN WOA's vanilla main menu.",
@@ -553,6 +612,8 @@
 			"blobsFolders": ["mod content/menus/main menu fix/blobs"],
 			"enabledByDefault": true
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "WOA's default career menu.",
@@ -569,6 +630,8 @@
 			"blobsFolders": ["mod content/menus/career menu/blobs"],
 			"enabledByDefault": true
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "WOA's default career menu thumbnails.",
@@ -585,6 +648,8 @@
 			"contentFolders": ["mod content/career menu pictures/h2016"],
 			"enabledByDefault": true
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "WOA's default contracts menu thumbnails.",
@@ -601,6 +666,8 @@
 			"contentFolders": ["mod content/contracts menu pictures"],
 			"enabledByDefault": true
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "WOA's default destination menu.",
@@ -627,7 +694,7 @@
 			"enabledByDefault": true
 		},
 		{
-			"name": "On (Original 2016)",
+			"name": "On (Original 2016 Images)",
 			"tooltip": "Heritage UI's custom destination menu, with pre-GOTY HITMAN 2016's thumbnails for the Season 1 destinations.",
 			"image": "framework content/dest_icons_old2016.png",
 			"type": "select",
@@ -636,7 +703,7 @@
 			"contentFolders": ["mod content/destinations menu pictures/old2016"]
 		},
 		{
-			"name": "On (2016 Hybrid)",
+			"name": "On (2016 Hybrid Images)",
 			"tooltip": "Heritage UI's custom destination menu with the GOTY thumbnails, but with the old ICA facility one and a centered Paris one.",
 			"image": "framework content/dest_icons_hybrid.png",
 			"type": "select",
@@ -644,6 +711,8 @@
 			"blobsFolders": ["mod content/menus/destination menu/hybrid/blobs"],
 			"contentFolders": ["mod content/destinations menu pictures/hybrid"]
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "WOA's default story menu.",
@@ -660,6 +729,8 @@
 			"blobsFolders": ["mod content/menus/story menu/blobs"],
 			"enabledByDefault": true
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "WOA's default gamemodes menu.",
@@ -676,6 +747,8 @@
 			"blobsFolders": ["mod content/menus/gamemodes menu/blobs"],
 			"enabledByDefault": true
 		},
+
+
 		{
 			"name": "Off",
 			"type": "select",
@@ -690,6 +763,8 @@
 			"blobsFolders": ["mod content/menus/quick save/blobs"],
 			"group": "Quick Save/Load"
 		},
+
+
 		{
 			"name": "Off",
 			"type": "select",
@@ -1316,6 +1391,8 @@
 				}
 			}
 		},
+
+
 		{
 			"name": "Off",
 			"tooltip": "HITMAN WOA's default item/suit sorting.",
