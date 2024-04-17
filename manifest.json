@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -1388,6 +1388,44 @@
 					"chineseSimplified": {},
 					"chineseTraditional": {},
 					"japanese": {}
+				}
+			}
+		},
+
+
+		{
+			"name": "Default (One Line)",
+			"tooltip": "HUI's default unconscious witness banner, with all the text on one line.",
+			"image": "framework content/map_unc_witness_1.png",
+			"type": "select",
+			"group": "Unconscious Witness Banner Style",
+			"enabledByDefault": true
+		},
+		{
+			"name": "GOTY (Two Lines)",
+			"tooltip": "H2016 GOTY's unconscious witness banner, with both words on their own lines.",
+			"image": "framework content/map_unc_witness_2.png",
+			"type": "select",
+			"group": "Unconscious Witness Banner Style",
+			"localisationOverrides": {
+				"00F185B27F9CC4DE": {
+					"english": {
+						"3946738251": "Unconscious\nWitness"
+					}
+				}
+			}
+		},
+		{
+			"name": "Old 2016 (Compromised)",
+			"tooltip": "Makes the unconscious witness banner say \"Compromised\", like it did in the original H2016.",
+			"image": "framework content/map_unc_witness_3.png",
+			"type": "select",
+			"group": "Unconscious Witness Banner Style",
+			"localisationOverrides": {
+				"00F185B27F9CC4DE": {
+					"english": {
+						"3946738251": "Compromised"
+					}
 				}
 			}
 		},
