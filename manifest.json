@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -251,7 +251,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/goty/heritage ui base", "mod content/ui styles/common"],
+			"contentFolders": ["mod content/ui styles/goty/heritage ui base", "mod content/ui styles/common", "mod content/ui styles/goty/common"],
 			"enabledByDefault": true
 		},
 		{
@@ -261,7 +261,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/goty/heritage ui base monochrome objectives", "mod content/ui styles/common"]
+			"contentFolders": ["mod content/ui styles/goty/heritage ui base monochrome objectives", "mod content/ui styles/common", "mod content/ui styles/goty/common"]
 		},
 		{
 			"name": "GOTY (White Detection)",
@@ -270,7 +270,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/goty/heritage ui base white detection", "mod content/ui styles/common"]
+			"contentFolders": ["mod content/ui styles/goty/heritage ui base white detection", "mod content/ui styles/common", "mod content/ui styles/goty/common"]
 		},
 		{
 			"name": "GOTY (B&W Objectives, White Detection)",
@@ -279,7 +279,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/goty/heritage ui base both monochrome", "mod content/ui styles/common"]
+			"contentFolders": ["mod content/ui styles/goty/heritage ui base both monochrome", "mod content/ui styles/common", "mod content/ui styles/goty/common"]
 		},
 		{
 			"name": "Old 2016 (Base)",
@@ -288,7 +288,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/old2016/heritage ui base", "mod content/ui styles/common"]
+			"contentFolders": ["mod content/ui styles/old2016/heritage ui base", "mod content/ui styles/common", "mod content/ui styles/old2016/common"]
 		},
 		{
 			"name": "Old 2016 (Monochrome Objectives)",
@@ -297,7 +297,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/old2016/heritage ui base monochrome objectives", "mod content/ui styles/common"]
+			"contentFolders": ["mod content/ui styles/old2016/heritage ui base monochrome objectives", "mod content/ui styles/common", "mod content/ui styles/old2016/common"]
 		},
 		{
 			"name": "Old 2016 (White Detection)",
@@ -306,7 +306,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/old2016/heritage ui base white detection", "mod content/ui styles/common"]
+			"contentFolders": ["mod content/ui styles/old2016/heritage ui base white detection", "mod content/ui styles/common", "mod content/ui styles/old2016/common"]
 		},
 		{
 			"name": "Old 2016 (B&W Objectives, White Detection)",
@@ -315,7 +315,7 @@
 			"type": "select",
 			"group": "UI Style",
 			"blobsFolders": ["mod content/ui styles/blobs"],
-			"contentFolders": ["mod content/ui styles/old2016/heritage ui base both monochrome", "mod content/ui styles/common"]
+			"contentFolders": ["mod content/ui styles/old2016/heritage ui base both monochrome", "mod content/ui styles/common", "mod content/ui styles/old2016/common"]
 		},
 
 
