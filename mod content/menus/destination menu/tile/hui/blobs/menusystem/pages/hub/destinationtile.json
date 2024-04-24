@@ -34,7 +34,7 @@
 						"$then": "$loc $formatstring UI_{$.Location.Id}_CITY",
 						"$else": {
 							"$if $Location.Properties.UpcomingContent": {
-								"$loc $formatstring UI_{$.Location.Id}_COUNTRY"
+								"$then": "$loc $formatstring UI_{$.Location.Id}_COUNTRY"
 							}
 						}
 					}
@@ -132,7 +132,7 @@
                     {
                         "view": "menu3.basic.HeadlineElement",
                         "selectable": false,
-                        "pressable": false,
+                        "pressable": false
                     }
                 ]
             }

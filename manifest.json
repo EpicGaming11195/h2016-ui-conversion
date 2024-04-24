@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "2.1.2",
+	"version": "2.1.3",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -672,41 +672,76 @@
 			"tooltip": "WOA's default destination menu.",
 			"image": "framework content/vanilla_d.png",
 			"type": "select",
-			"group": "Destination Menu"
+			"group": "Destination Tiles"
 		},
 		{
-			"name": "On (H3 Images)",
+			"name": "On (Heritage)",
 			"tooltip": "Heritage UI's custom destination menu.",
 			"image": "framework content/HUI_DEST.png",
 			"type": "select",
-			"group": "Destination Menu",
-			"blobsFolders": ["mod content/menus/destination menu/h3/blobs"]
+			"group": "Destination Tiles",
+			"blobsFolders": ["mod content/menus/destination menu/tile/hui/blobs"]
+		},
+		{
+			"name": "On (2016 Casual)",
+			"tooltip": "Heritage UI's custom destination menu, with H2016's destination tiles. (I couldn't figure out how to make the difficulty level actually display your last played difficulty, so it always displays the one you set here.)",
+			"image": "framework content/dest_tiles_2016.png",
+			"type": "select",
+			"group": "Destination Tiles",
+			"blobsFolders": ["mod content/menus/destination menu/tile/2016/common/blobs", "mod content/menus/destination menu/tile/2016/easy/blobs"]
+		},
+		{
+			"name": "On (2016 Professional)",
+			"tooltip": "Heritage UI's custom destination menu, with H2016's destination tiles. (I couldn't figure out how to make the difficulty level actually display your last played difficulty, so it always displays the one you set here.)",
+			"image": "framework content/dest_tiles_2016.png",
+			"type": "select",
+			"group": "Destination Tiles",
+			"blobsFolders": ["mod content/menus/destination menu/tile/2016/common/blobs", "mod content/menus/destination menu/tile/2016/normal/blobs"],
+			"enabledByDefault": true
+		},
+		{
+			"name": "On (2016 Master)",
+			"tooltip": "Heritage UI's custom destination menu, with H2016's destination tiles. (I couldn't figure out how to make the difficulty level actually display your last played difficulty, so it always displays the one you set here.)",
+			"image": "framework content/dest_tiles_2016.png",
+			"type": "select",
+			"group": "Destination Tiles",
+			"blobsFolders": ["mod content/menus/destination menu/tile/2016/common/blobs", "mod content/menus/destination menu/tile/2016/hard/blobs"]
+		},
+
+
+		{
+			"name": "Off",
+			"tooltip": "WOA's default destination tile images. (These options don't affect the destinations menu if you have the \"Off\" option selected in the \"Destination Tiles\" category.)",
+			"image": "framework content/HUI_DEST.png",
+			"type": "select",
+			"blobsFolders": ["mod content/menus/destination menu/h3/blobs"],
+			"group": "Destination Tile Images"
 		},
 		{
 			"name": "On (H2016 GOTY Images)",
-			"tooltip": "Heritage UI's custom destination menu, with H2016 GOTY's thumbnails for the Season 1 destinations.",
+			"tooltip": "Replace the thumbnails of the Season 1 destination tiles with the ones from H2016 GOTY. (These options don't affect the destinations menu if you have the \"Off\" option selected in the \"Destination Tiles\" category.)",
 			"image": "framework content/dest_icons_goty.png",
 			"type": "select",
-			"group": "Destination Menu",
+			"group": "Destination Tile Images",
 			"blobsFolders": ["mod content/menus/destination menu/goty/blobs"],
 			"contentFolders": ["mod content/destinations menu pictures/goty"],
 			"enabledByDefault": true
 		},
 		{
 			"name": "On (Original 2016 Images)",
-			"tooltip": "Heritage UI's custom destination menu, with pre-GOTY HITMAN 2016's thumbnails for the Season 1 destinations.",
+			"tooltip": "Replace the thumbnails of the Season 1 destination tiles with the ones from the original H2016. (These options don't affect the destinations menu if you have the \"Off\" option selected in the \"Destination Tiles\" category.)",
 			"image": "framework content/dest_icons_old2016.png",
 			"type": "select",
-			"group": "Destination Menu",
+			"group": "Destination Tile Images",
 			"blobsFolders": ["mod content/menus/destination menu/old2016/blobs"],
 			"contentFolders": ["mod content/destinations menu pictures/old2016"]
 		},
 		{
 			"name": "On (2016 Hybrid Images)",
-			"tooltip": "Heritage UI's custom destination menu with the GOTY thumbnails, but with the old ICA facility one and a centered Paris one.",
+			"tooltip": "S1 destination tile thumbnails from H2016 GOTY, but with the old ICA facility one and a centered Paris one. (These options don't affect the destinations menu if you have the \"Off\" option selected in the \"Destination Tiles\" category.)",
 			"image": "framework content/dest_icons_hybrid.png",
 			"type": "select",
-			"group": "Destination Menu",
+			"group": "Destination Tile Images",
 			"blobsFolders": ["mod content/menus/destination menu/hybrid/blobs"],
 			"contentFolders": ["mod content/destinations menu pictures/hybrid"]
 		},
