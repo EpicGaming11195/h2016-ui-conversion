@@ -1,7 +1,7 @@
 {
   "id": "$.Id",
   "controller": "contextitem",
-  "view": "menu3.basic.MenuTileTall",
+  "view": "menu3.basic.CategoryTile",
   "row": -0.75,
   "nrows": 0.5,
   "ncols": 2,
