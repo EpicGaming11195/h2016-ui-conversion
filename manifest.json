@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "2.3.0",
+	"version": "2.3.1",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -443,6 +443,14 @@
 			"type": "select",
 			"group": "Menu Theme",
 			"contentFolders": ["mod content/menu styles/old2016", "mod content/misc menu tiles/common", "mod content/misc menu tiles/old2016"]
+		},
+		{
+			"name": "On (Heritage UI Red)",
+			"tooltip": "Heritage UI's original menu style.",
+			"image": "framework content/theme_hui.png",
+			"type": "select",
+			"group": "Menu Theme",
+			"contentFolders": ["mod content/menu styles/original"]
 		},
 
 
