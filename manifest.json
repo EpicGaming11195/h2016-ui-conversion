@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "2.2.0",
+	"version": "2.3.0",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -11,7 +11,7 @@
 		"beneddyguitar"
 	],
 	"blobsFolders": ["mod content/base/blobs"],
-	"frameworkVersion": "2.33.9",
+	"frameworkVersion": "2.33.12",
 	"loadAfter": ["dribbleondo.tgblr"],
 	"localisation": {
 		"english": {
@@ -444,14 +444,6 @@
 			"group": "Menu Theme",
 			"contentFolders": ["mod content/menu styles/old2016", "mod content/misc menu tiles/common", "mod content/misc menu tiles/old2016"]
 		},
-		{
-			"name": "On (Heritage UI Red)",
-			"tooltip": "Heritage UI's original menu style.",
-			"image": "framework content/theme_hui.png",
-			"type": "select",
-			"group": "Menu Theme",
-			"contentFolders": ["mod content/menu styles/original"]
-		},
 
 
 		{
@@ -522,7 +514,7 @@
 			"group": "Boot Logo"
 		},
 		{
-			"name": "On (Original 2016 w/ Subtitle)",
+			"name": "On (2016 w/ Subtitle)",
 			"tooltip": "Hitman 2016's title screen logo, with the World of Assassination subtitle added.",
 			"image": "framework content/logo_2016_subtitle.png",
 			"type": "select",
@@ -531,7 +523,7 @@
 			"enabledByDefault": true
 		},
 		{
-			"name": "On (Original 2016)",
+			"name": "On (2016)",
 			"tooltip": "Hitman 2016's title screen logo.",
 			"image": "framework content/logo_2016_og.png",
 			"type": "select",
@@ -564,9 +556,9 @@
 			"contentFolders": ["mod content/logo pos/old"]
 		},
 		{
-			"name": "On (Original 2016)",
+			"name": "On (2016)",
 			"tooltip": "\nHitman 2016's logo position.",
-			"image": "framework content/logopos_2016.png",
+			"image": "framework content/logo_2016_subtitle.png",
 			"type": "select",
 			"group": "Logo Position",
 			"contentFolders": ["mod content/logo pos/2016"],
@@ -576,7 +568,25 @@
 
 		{
 			"name": "Off",
-			"tooltip": "Hitman WOA's default Attraction Screen.",
+			"tooltip": "Hitman WOA's default logo size.",
+			"image": "framework content/logo_small.png",
+			"type": "select",
+			"group": "Logo Scale"
+		},
+		{
+			"name": "On",
+			"tooltip": "Hitman 2016's larger logo size.",
+			"image": "framework content/logo_2016_subtitle.png",
+			"type": "select",
+			"group": "Logo Scale",
+			"contentFolders": ["mod content/logo size/2016"],
+			"enabledByDefault": true
+		},
+
+
+		{
+			"name": "Off",
+			"tooltip": "Hitman WOA's default attraction screen.",
 			"image": "framework content/as_base.png",
 			"type": "select",
 			"group": "Attraction Screen Background"
@@ -636,22 +646,6 @@
 
 		{
 			"name": "Off",
-			"tooltip": "Hitman WOA's default menu music.",
-			"type": "select",
-			"group": "Menu Music"
-		},
-		{
-			"name": "On",
-			"tooltip": "Hitman 2016's menu music.",
-			"type": "select",
-			"group": "Menu Music",
-			"contentFolders": ["mod content/music"],
-			"enabledByDefault": true
-		},
-
-
-		{
-			"name": "Off",
 			"tooltip": "Hitman WOA's default loading screen.",
 			"image": "framework content/ls_v.png",
 			"type": "select",
@@ -702,6 +696,23 @@
 			"blobsFolders": ["mod content/dest bgs/HUI white/blobs"]
 		},
 
+
+		{
+			"name": "Off",
+			"tooltip": "Hitman WOA's default menu music.",
+			"type": "select",
+			"group": "Menu Music"
+		},
+		{
+			"name": "On",
+			"tooltip": "Hitman 2016's menu music.",
+			"type": "select",
+			"group": "Menu Music",
+			"contentFolders": ["mod content/music"],
+			"enabledByDefault": true
+		},
+
+
 		{
 			"name": "Off",
 			"image": "framework content/vanilla_maps.png",
@@ -728,12 +739,21 @@
 			"group": "Main Menu"
 		},
 		{
-			"name": "On",
+			"name": "On (Heritage)",
 			"tooltip": "Heritage UI's custom main menu, combining the featured and live catergories to make the dashboard. It also moves the VR button as to not impede menu flow.",
 			"image": "framework content/hmm.png",
 			"type": "select",
 			"group": "Main Menu",
-			"blobsFolders": ["mod content/menus/main menu fix/blobs"],
+			"blobsFolders": ["mod content/menus/main menu fix/common/blobs", "mod content/menus/main menu fix/dashboard/blobs"],
+			"peacockPlugins": ["mod content/menus/main menu fix/peacock/Heritage_Dashboard.plugin.js", "mod content/menus/main menu fix/peacock/Heritage_Hub.plugin.js"]
+		},
+		{
+			"name": "On (Featured Tab)",
+			"tooltip": "Heritage UI's custom main menu, but the dashboard tab says \"Featured\" and has a star icon, like it did in H2016.",
+			"image": "framework content/loc_featured.png",
+			"type": "select",
+			"group": "Main Menu",
+			"blobsFolders": ["mod content/menus/main menu fix/common/blobs", "mod content/menus/main menu fix/featured/blobs"],
 			"peacockPlugins": ["mod content/menus/main menu fix/peacock/Heritage_Dashboard.plugin.js", "mod content/menus/main menu fix/peacock/Heritage_Hub.plugin.js"],
 			"enabledByDefault": true
 		},
@@ -918,9 +938,9 @@
 			"enabledByDefault": true
 		},
 		{
-			"name": "On (Heritage UI)",
+			"name": "On (Heritage)",
 			"type": "select",
-			"tooltip": "Attempts to make item and suit names more consistent, following a naming scheme similar to Hitman 2016.",
+			"tooltip": "HUI's attempt to make item and suit names more consistent, following a naming scheme similar to Hitman 2016.",
 			"group": "Item Names",
 			"image": "framework content/heritagenames.png",
 			"localisationOverrides": {
@@ -2424,6 +2444,44 @@
 		{
 			"name": "Off",
 			"type": "select",
+			"tooltip": "Hitman WOA's default campaign tab title.",
+			"image": "framework content/loc_story_off.png",
+			"group": "Misc. Localization Changes (Campaigns Tab)"
+		},
+		{
+			"name": "On (GOTY)",
+			"type": "select",
+			"tooltip": "Makes the campaign tab say \"Campaign\" like it did in H2016 GOTY.",
+			"image": "framework content/loc_story_goty.png",
+			"group": "Misc. Localization Changes (Campaigns Tab)",
+			"localisationOverrides": {
+				"008D33DE8C75CACB": {
+					"english": {
+						"2387206187": "Campaign"
+					}
+				}
+			},
+			"enabledByDefault": true
+		},
+		{
+			"name": "On (Old 2016)",
+			"type": "select",
+			"tooltip": "Makes the campaign tab say \"Story\" like it did in the original H2016.",
+			"image": "framework content/loc_story_old2016.png",
+			"group": "Misc. Localization Changes (Campaigns Tab)",
+			"localisationOverrides": {
+				"008D33DE8C75CACB": {
+					"english": {
+						"2387206187": "Story"
+					}
+				}
+			}
+		},
+
+
+		{
+			"name": "Off",
+			"type": "select",
 			"tooltip": "Hitman WOA's default exit text.",
 			"image": "framework content/loc_exit_off.png",
 			"group": "Misc. Localization Changes (Locate the Exit)"
@@ -2431,7 +2489,7 @@
 		{
 			"name": "On (GOTY)",
 			"type": "select",
-			"tooltip": "Properly capitalizes the exit text, like how it was in H2016 GOTY.",
+			"tooltip": "Properly capitalizes the exit text, like it was in H2016 GOTY.",
 			"image": "framework content/loc_exit_goty.png",
 			"group": "Misc. Localization Changes (Locate the Exit)",
 			"localisationOverrides": {
@@ -2446,7 +2504,7 @@
 		{
 			"name": "On (Old 2016)",
 			"type": "select",
-			"tooltip": "Changes the exit text to \"Locate Exit\", like it was in the original H2016.",
+			"tooltip": "Changes the exit text to \"Locate Exit\", which is what it was in the original H2016.",
 			"image": "framework content/loc_exit_old2016.png",
 			"group": "Misc. Localization Changes (Locate the Exit)",
 			"localisationOverrides": {

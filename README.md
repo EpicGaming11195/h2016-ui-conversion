@@ -17,12 +17,13 @@ Hitman 2016 Intro - https://www.nexusmods.com/hitman3/mods/612
 - Added back the pause menu/inventory's background blur effect.
 - All objective icons have been rounded.
 - Selected menu tiles have a white outline around them instead of a bar at the bottom, and the drop shadow has been added back.
-- Some menu tiles now have barcodes on their right side. (Currently only in the GOTY menu theme)
+- Some menu tiles now have barcodes on their right side.
+- Added a divider line near the bottom of menus.
 - Added two menu and UI themes: one based on H2016 GOTY, and one based on the original H2016.
 - The target icon on the HUD, the one on the map, the intel icon, and the escape icon have been replaced with their respective ones from H2016.
 - Added the dotted square on the minimap for when you're trespassing. (It is a bit translucent, but I don't exactly know how to fix that.)
 - Trespassing, compromised, and unconscious witness icons are now arrows.
-- Replaced the menu tile icons for some things (e.g. the career page, the load game button) with the ones from H2016.
+- Replaced the menu tile thumbnails for some things (e.g. the career page, the load game button) with the ones from H2016.
 - Changed the illegal item/action icon to the one from H2016, and repositioned it to the corner of the interaction circle.
 - Removed the dot reticle shown when you're holding a gun but not aiming it.
 - (Off by default) Changed a bunch of the items' names to be more consistent with each other.
