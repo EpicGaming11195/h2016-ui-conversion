@@ -12,7 +12,7 @@ Hitman 2016 Menu and Music Replacement - https://www.nexusmods.com/hitman3/mods/
 Hitman 2016 Intro - https://www.nexusmods.com/hitman3/mods/612
 
 ## What I've added/changed
-- Objective icons and detection arrows are colored again, which isn't completely accurate to H2016, but I like it this way.
+- Added options to make objective icons and detection arrows colored again.
 - Removed every Heritage UI customization option that isn't related to H2016.
 - Added back the pause menu/inventory's background blur effect.
 - All objective icons have been rounded.
