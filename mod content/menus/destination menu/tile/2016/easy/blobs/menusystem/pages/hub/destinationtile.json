@@ -40,7 +40,7 @@
 					}
 				},
 				"icon": "location",
-				"difficultyheader": "Difficulty Level",
+				"difficultyheader": "$loc UI_MENU_PAGE_DESTINATION_TAB_DIFFICULTY",
 				"difficulty": "EASY",
 				"completion": "$formatstring {$loc UI_MENU_PAGE_LOCATION_COMPLETION}  {$.ChallengeCompletion.CompletedChallengesCount,.0f} {$loc UI_DIALOG_SLASH} {$.ChallengeCompletion.ChallengesCount,.0f}",
 				"image": {
