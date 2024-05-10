@@ -14,7 +14,7 @@ Hitman 2016 Intro - https://www.nexusmods.com/hitman3/mods/612
 ## What I've added/changed
 - Added options to make objective icons and detection arrows colored again.
 - Removed every Heritage UI customization option that isn't related to H2016.
-- Added back the pause menu/inventory's background blur effect.
+- Added back the pause menu/inventory's background filter.
 - All objective icons have been rounded.
 - Selected menu tiles have a white outline around them instead of a bar at the bottom, and the drop shadow has been added back.
 - Some menu tiles now have barcodes on their right side.
