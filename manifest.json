@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "2.4.0",
+	"version": "2.4.1",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -571,19 +571,19 @@
 		{
 			"name": "On (GOTY)",
 			"tooltip": "Hitman 2016 GOTY's monochromatic menu style.",
-			"image": "framework content/theme_goty.png",
+			"image": "framework content/dest_icons_goty.png",
 			"type": "select",
 			"group": "Menu Theme",
-			"contentFolders": ["mod content/menu styles/goty", "mod content/mission end screen 47 renders/goty", "mod content/misc menu tiles/common", "mod content/misc menu tiles/goty"],
+			"contentFolders": ["mod content/menu styles/goty", "mod content/mission end screen 47 renders/goty", "mod content/misc gfxi/common", "mod content/misc gfxi/goty"],
 			"enabledByDefault": true
 		},
 		{
 			"name": "On (Original 2016)",
 			"tooltip": "Hitman 2016's original red and white menu style.",
-			"image": "framework content/theme_old2016.png",
+			"image": "framework content/dest_icons_old2016.png",
 			"type": "select",
 			"group": "Menu Theme",
-			"contentFolders": ["mod content/menu styles/old2016", "mod content/misc menu tiles/common", "mod content/misc menu tiles/old2016"]
+			"contentFolders": ["mod content/menu styles/old2016", "mod content/misc gfxi/common", "mod content/misc gfxi/old2016"]
 		},
 		{
 			"name": "On (Heritage UI Red)",
@@ -639,19 +639,27 @@
 
 		{
 			"name": "Off",
-			"tooltip": "Hitman WOA's default objective size.",
-			"image": "framework content/small.jpg",
+			"tooltip": "\nHitman WOA's default objective size.",
+			"image": "framework content/obj_small.png",
 			"type": "select",
 			"group": "Objective Scale",
 			"enabledByDefault": true
 		},
 		{
-			"name": "On",
-			"tooltip": "Scales the objectives to match Hitman 2016.",
-			"image": "framework content/large.jpg",
+			"name": "On (HUI)",
+			"tooltip": "\nHUI's larger objective scale.",
+			"image": "framework content/obj_large.png",
 			"type": "select",
 			"group": "Objective Scale",
-			"contentFolders": ["mod content/objscale"]
+			"contentFolders": ["mod content/objscale/hui"]
+		},
+		{
+			"name": "On (2016)",
+			"tooltip": "Scales and repositions the objectives to match Hitman 2016.",
+			"image": "framework content/obj_larger.png",
+			"type": "select",
+			"group": "Objective Scale",
+			"contentFolders": ["mod content/objscale/2016"]
 		},
 
 
@@ -1733,7 +1741,7 @@
 					"english": {
 						"2037552605": "Talking to certain NPCs might reveal Opportunities.",
 						"3938743496": "Opportunity Guides can be configured from the Gameplay Options menu or turned off completely.",
-						"67212165": "Once a Opportunity has been revealed, you do not need to reveal it again."
+						"67212165": "Once an Opportunity has been revealed, you do not need to reveal it again."
 					},
 					"french": {
 					},
@@ -2418,8 +2426,8 @@
 			"00740800E8D910CE": {
 				"english": {
 					"247603388": "Opportunities",
-					"975818405": "A Opportunity has been revealed. To track it click {NOTEBOOK}",
-					"1382600923": "A Opportunity has been revealed. To track it press {NOTEBOOK}"
+					"975818405": "An Opportunity has been revealed. To track it click {NOTEBOOK}",
+					"1382600923": "An Opportunity has been revealed. To track it press {NOTEBOOK}"
 				},
 				"french": {
 				},
@@ -2518,7 +2526,7 @@
 				"english": {
 					"3953685410": "Opportunity Reveal",
 					"284679463": "Opportunity Ended",
-					"2740787651": "A Opportunity is no longer available, due to an in-world change in conditions. Guide information will no longer be valid."
+					"2740787651": "An Opportunity is no longer available, due to an in-world change in conditions. Guide information will no longer be valid."
 				},
 				"french": {
 				},
@@ -2748,7 +2756,7 @@
 			"enabledByDefault": true
 		},
 		{
-			"name": "On (Peacock Only, HUI Sorting MUST be enabled)",
+			"name": "On (Peacock Only, Suit/Item Sorting MUST be on)",
 			"type": "select",
 			"image": "framework content/favorite.png",
 			"group": "Suit/Item Sorting (Favorites)",
@@ -2766,7 +2774,7 @@
 			"enabledByDefault": true
 		},
 		{
-			"name": "On (Peacock Only, HUI Sorting MUST be enabled)",
+			"name": "On (Peacock Only, Suit/Item Sorting MUST be on)",
 			"type": "select",
 			"image": "framework content/vault.png",
 			"group": "Suit/Item Sorting (Vault)",
