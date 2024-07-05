@@ -1,5 +1,5 @@
 # Hitman 2016 UI Conversion
-A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make Hitman 3's UI look as close to Hitman 2016 as possible.
+A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Legacy Intros, and my own edits, aiming to make Hitman 3's UI look as close to Hitman 2016 as possible.
 
 ### Download it here
 https://www.nexusmods.com/hitman3/mods/624
@@ -9,7 +9,7 @@ Heritage UI - https://www.nexusmods.com/hitman3/mods/323
 
 Hitman 2016 Menu and Music Replacement - https://www.nexusmods.com/hitman3/mods/57
 
-Hitman 2016 Intro - https://www.nexusmods.com/hitman3/mods/612
+Legacy Intros - https://www.nexusmods.com/hitman3/mods/612
 
 ## What I've added/changed
 - Added options to make objective icons and detection arrows colored again.
@@ -38,4 +38,4 @@ If you see anything in this changelog that you don't like, there's probably an o
 
 And all the people in Heritage UI's credits. I literally couldn't have done it without you.
 
-Before you ask, I don't have to credit anyone for Hitman 2016 Intro, because that mod was also created by me.
+Before you ask, I don't have to credit anyone for Legacy Intros, because that mod was also created by me.
