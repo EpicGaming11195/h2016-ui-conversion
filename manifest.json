@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "2.4.1",
+	"version": "2.4.2",
 	"id": "EpicGaming11195.H2016UIConversion",
 	"name": "Hitman 2016 UI Conversion",
 	"description": "(Some options may need to be selected again after updates) A combination of Heritage UI, Hitman 2016 Menu and Music Replacement, Hitman 2016 Intro, and my own edits, aiming to make the UI look as close to Hitman 2016 as possible.",
@@ -11,7 +11,7 @@
 		"beneddyguitar"
 	],
 	"blobsFolders": ["mod content/base/blobs"],
-	"frameworkVersion": "2.33.12",
+	"frameworkVersion": "2.33.18",
 	"loadAfter": ["dribbleondo.tgblr"],
 	"localisation": {
 		"english": {
@@ -638,6 +638,22 @@
 
 
 		{
+			"name": "Default",
+			"tooltip": "Leave WOA's default intro sound unchanged. If you use this option alongside any intro added by the mod, the default intro's sound will play over the beginning of that intro.",
+			"type": "select",
+			"group": "Default Intro Sound"
+		},
+		{
+			"name": "Silent",
+			"tooltip": "Make WOA's default intro sound silent, so it won't play over other intros' audio. If you use WOA's default intro alongside this option, it will be completely silent.",
+			"type": "select",
+			"group": "Default Intro Sound",
+			"contentFolders": ["mod content/intro/silent intro sound"],
+			"enabledByDefault": true
+		},
+
+
+		{
 			"name": "Off",
 			"tooltip": "\nHitman WOA's default objective size.",
 			"image": "framework content/obj_small.png",
@@ -665,7 +681,7 @@
 
 		{
 			"name": "Off",
-			"tooltip": "Hitman WOA's Vanilla boot logo.",
+			"tooltip": "Hitman WOA's default boot logo.",
 			"image": "framework content/v_l.png",
 			"type": "select",
 			"group": "Boot Logo"
@@ -890,7 +906,7 @@
 
 		{
 			"name": "Off",
-			"tooltip": "Hitman WOA's vanilla main menu.",
+			"tooltip": "Hitman WOA's default main menu.",
 			"image": "framework content/menu_base.png",
 			"type": "select",
 			"group": "Main Menu"

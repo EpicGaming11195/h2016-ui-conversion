@@ -1,0 +1,8 @@
+{
+    "file": "00A0D897BAE2DA54",
+    "patch": [{
+        "op": "replace",
+        "path": "/$datacontext/do/$each $.Lines/children/0/data/color",
+        "value": "#464646"
+    }]
+}
